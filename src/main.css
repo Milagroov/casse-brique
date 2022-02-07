@@ -4,19 +4,7 @@ body{
     background-color: #000000;
     text-align: center;
 }
-a{
-    color: #808080;
-    text-transform: uppercase;
-    text-decoration: none;
-    transition: color 1s;
-}
-a:hover{
-    color: #ff0000;
-    text-decoration: underline;
-}
-a:visited{
-    color: #880000;
-}
+
 #game{
     margin-bottom: 10px;
     display: flex;
@@ -33,19 +21,19 @@ canvas{
     color: #ffffff;
     font-size : 5vw;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     position: absolute;
     top: 0;
     width: 100%;
 }
 
 .score{
-    color:#0f0
+    color:#ffffff
 }
 .name{
     font-size: 3vw;
 }
 
 #scores >* {
-    margin: 1vw;
+    margin: 1px;
 }
